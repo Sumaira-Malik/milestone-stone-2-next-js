@@ -1,0 +1,347 @@
+/* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+
+}
+
+html {
+  font-size: 60%;
+  overflow-x: hidden;
+}
+
+.section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 92vh;
+  width: 100%;
+  background-color: #F9F0E7;
+  background-image: url("https://img.freepik.com/premium-photo/soft-pink-flowers-wedding-background-valentine-s-day-flowers-background-ai-generated_147933-607.jpg?w=826");
+}
+
+.main-div {
+  width: 90%;
+  margin: auto;
+  position: relative;
+  top: 200px;
+}
+
+.head {
+  text-align: center;
+  padding-top: 3%;
+  font-weight: 800;
+  font-size: 4.5rem;
+  color: #656814;
+  text-shadow: rgb(220, 20, 123) 1px 0 5px;
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 2.5rem;
+  padding-top: 1.5rem;
+  color: #82165e;
+}
+
+#para {
+  text-align: center;
+  font-weight: 300;
+  font-size: 2rem;
+  padding-top: 2rem;
+  color: #82165e;
+}
+
+#main-btn {
+  border: 2px solid #656814;
+  margin: 15px auto;
+  position: relative;
+  display: block;
+  background-color: #6568148a;
+  color: #82165e;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+  font-size: 1.8rem;
+  text-align: center;
+  box-shadow: 0 0 25px #b5b94b;
+}
+
+#main-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 50px #D89E9C;
+}
+
+/* Navbar */
+.nav {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fcaeae49;
+  z-index: 10;
+  padding: 10px 0;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  margin-left: 40px;
+  
+}
+
+.logo h1 {
+  
+  font-weight: 800;
+  font-size: 3rem;
+  color: #656814;
+  text-shadow: 0 0 10px #b5b94b;
+  padding-left: 3.5rem;
+}
+
+.navbar ul li {
+  font-size: 2rem;
+  color: #4d065b;
+  margin-left: 2.8rem;
+  display: inline-block;
+  font-weight: 700;
+  font-family: monospace;
+  transition: 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #656814;
+  transition: all 1s ease-out;
+}
+
+/* Home Section */
+#home {
+  width: 100%;
+  /* margin: 100px auto; */
+  height: auto;
+  position: relative;
+  top: 50px;
+  transition: 0.4s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+
+#profile {
+  width: 80%;
+  max-width: 250px;
+  margin: 60px auto;
+}
+
+#profile img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 5px solid #D89E9C;
+  box-shadow: 0 0 25px #51302f, 0 0 50px #9b6765, 0 0 80px #845d5b;
+}
+
+#heading {
+  width: 100%;
+  text-align: center;
+}
+
+#heading h1 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: #DB4A65;
+  padding: 1rem;
+}
+
+span {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #656814;
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+#heading p {
+  padding: 1rem 5%;
+  font-size: 1.8rem;
+  color: #A9293E;
+}
+#btn {
+  border: 2px solid #464806;
+  padding: 8px;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+  background-color: #65681490;
+  color: white;
+  font-size: 1.6rem;
+  box-shadow: inset 0 0 5px white;
+  text-align: center;
+}
+#btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 50px #D89E9C;
+}
+
+
+
+
+
+/* Contact Section */
+#contact {
+  background-color: #f4a4b3a0;
+  width: 90%;
+  margin: auto;
+  position: relative;
+  top: 100px;
+  height: auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#contact h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #464806;
+}
+
+.form {
+  width: 100%;
+  border: 5px solid #464806;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #464806;
+  line-height: 3.2rem;
+  font-size: 1.6rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: #d89e9c88;
+  color: white;
+  box-shadow: inset 0 0 5px white;
+  font-size: 1.5rem;
+}
+
+#button {
+  border: 2px solid #464806;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+  background-color: #65681490;
+  color: white;
+  font-size: 1.6rem;
+  box-shadow: inset 0 0 5px white;
+  text-align: center;
+}
+
+#button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 50px #D89E9C;
+}
+
+/* Footer */
+.footer {
+  background-color: #e78e98;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer .copyright {
+  font-size: 2rem;
+  color: #464806;
+}
+
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .main-div {
+      width: 100%;
+      top: 200px;
+      padding: 50px;
+  }
+
+  .head {
+      font-size: 3rem;
+  }
+
+  h2 {
+      font-size: 2rem;
+  }
+
+  #para {
+      font-size: 1.8rem;
+  }
+
+  #main-btn {
+      font-size: 1.6rem;
+      padding: 8px 15px;
+  }
+
+  .logo h1 {
+      font-size: 2rem;
+  }
+
+  .navbar{
+      display: flex;
+  }
+
+  .navbar ul li {
+      font-size: 1.2rem;
+      margin-left: 1rem;
+  }
+
+  #home {
+      width: 95%;
+      margin: 80px auto;
+  }
+
+  #profile {
+      width: 70%;
+      max-width: 180px;
+  }
+
+  #heading h1 {
+      font-size: 2.5rem;
+  }
+
+  #heading p {
+      font-size: 1.4rem;
+  }
+
+  #contact {
+      width: 95%;
+      top: 100px;
+      padding: 15px;
+  }
+
+  .form {
+      font-size: 1.4rem;
+      line-height: 2.5rem;
+  }
+
+  #button {
+      font-size: 1.4rem;
+      padding: 8px;
+  }
+
+  .footer .copyright {
+      font-size: 1.2rem;
+  }
+}
+
