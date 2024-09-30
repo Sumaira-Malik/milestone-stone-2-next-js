@@ -16,7 +16,7 @@ export default function Home() {
 <div className="main-div">
   <h1 className="head">Welcome to My Portfolio</h1>
       <h2>Hi! This Is SUMAIRA MALIK</h2>
-      <p id="para">I'm a frontend web developer with 1 year of experience.</p>
+      <p id="para">I &apos; m a frontend web developer with 1 year of experience.</p>
       <button id="main-btn" onClick={()=>router.push("/About")}>About me</button>
   </div>
       
