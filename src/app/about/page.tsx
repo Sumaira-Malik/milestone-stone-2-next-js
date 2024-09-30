@@ -4,7 +4,7 @@ import Nav from "../components/Navbar";
 import { useRouter } from "next/navigation";
 import Foot from "../components/Footer";
 
-const about = () => {
+const About = () => {
   const router = useRouter();
 
   return (
@@ -48,4 +48,4 @@ const about = () => {
     </div>
   );
 };
-export default about;
+export default About;
