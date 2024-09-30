@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import Nav from "../components/Navbar";
 import { useRouter } from "next/navigation";
 import Foot from "../components/Footer";
@@ -15,9 +15,11 @@ const About = () => {
 
         <section id="home">
           <div id="profile">
-            <img
-              src="https://i.pinimg.com/originals/17/ae/06/17ae0642f41606d5510047e217e55eb0.jpg"
-              alt=""
+            <Image
+              src="/aboutimg.jpg"
+              alt="profile"
+              width={500}
+              height={600}
             />
             
           </div>
