@@ -9,24 +9,22 @@ const About = () => {
 
   return (
     <div>
-
       <Nav />
       <section className="section">
-
         <section id="home">
           <div id="profile">
             <Image
-              src="/aboutimg.jpg"
+              src="/img.jpg"
               alt="profile"
-              width={500}
-              height={600}
+              width={250}
+              height={250}
+              className="profile-img"
             />
-            
           </div>
           <div id="heading">
             <h1>
-              Hello! Its
-              <span>Sumaira Malik</span>
+              Hello! It's
+              <span> Sumaira Malik</span>
             </h1>
             <p>
               I am a dedicated Frontend developer with a solid foundation in web
@@ -37,10 +35,9 @@ const About = () => {
               the KAMRAN KHAN TESSORI WEB 3.0 AI. This advanced training allows
               me to stay at the forefront of web development, equipping me to
               build dynamic and responsive Websites using the latest
-              frameworks..
+              frameworks.
             </p>
-            
-            <button id="btn" onClick={() => router.push("/contact")}>
+            <button id="btn" onClick={() => router.push("/Contact")}>
               Contact me
             </button>
           </div>
@@ -50,4 +47,5 @@ const About = () => {
     </div>
   );
 };
+
 export default About;

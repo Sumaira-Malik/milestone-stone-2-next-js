@@ -128,7 +128,6 @@ h2 {
 /* Home Section */
 #home {
   width: 100%;
-  /* margin: 100px auto; */
   height: auto;
   position: relative;
   top: 50px;
@@ -139,20 +138,18 @@ h2 {
   padding: 20px;
 }
 
-
 #profile {
-  width: 80%;
+  width: 100%;
+  height: auto;
   max-width: 250px;
   margin: 60px auto;
 }
 
-#profile img {
-  width: 100%;
-  height: auto;
+.profile-img {
   border-radius: 50%;
-  cursor: pointer;
   border: 5px solid #D89E9C;
   box-shadow: 0 0 25px #51302f, 0 0 50px #9b6765, 0 0 80px #845d5b;
+  cursor: pointer;
 }
 
 #heading {
@@ -179,6 +176,7 @@ span {
   font-size: 1.8rem;
   color: #A9293E;
 }
+
 #btn {
   border: 2px solid #464806;
   padding: 8px;
@@ -190,11 +188,11 @@ span {
   box-shadow: inset 0 0 5px white;
   text-align: center;
 }
+
 #btn:hover {
   transform: scale(1.05);
   box-shadow: 0 0 50px #D89E9C;
 }
-
 
 
 
